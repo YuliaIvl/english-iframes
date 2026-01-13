@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8">
 <style>
-  body{margin:0;padding:10px;font-family:Arial;background:transparent;}
-  .box{border:1px solid #ccc;padding:12px;display:inline-block;border-radius:8px}
-  button{margin:4px;padding:6px 10px;cursor:pointer;border-radius:6px}
-  .correct{background:#8effa0;}
-  .wrong{background:#ff9a9a;}
+body{
+  margin:0;
+  padding:10px;
+  font-family:Arial;
+  background:transparent;
+}
+.box{
+  border:1px solid #ccc;
+  padding:12px;
+  display:inline-block;
+  border-radius:8px;
+}
+button{
+  margin:4px;
+  padding:6px 10px;
+  cursor:pointer;
+  border-radius:6px;
+}
+.correct{background:#8effa0;}
+.wrong{background:#ff9a9a;}
 </style>
 </head>
 <body>
-  <div class="box">
-    ___ a rubber.
-    <div>
-      <button onclick="this.className='wrong'">its</button>
-      <button onclick="this.className='correct'">it’s</button>
-      <button onclick="this.className='wrong'">it</button>
-    </div>
+
+<div class="box">
+  ___ a rubber.
+  <div>
+    <button onclick="this.className='wrong'">its</button>
+    <button onclick="this.className='correct'">it’s</button>
+    <button onclick="this.className='wrong'">it</button>
   </div>
+</div>
+
 </body>
 </html>
